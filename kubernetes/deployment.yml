@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: Mypage
-          image: username/Mypage:latest
+          image: 052937454741.dkr.ecr.ap-northeast-2.amazonaws.com/user05-mypage:latest
           ports:
             - containerPort: 8080
           readinessProbe:
